@@ -1,0 +1,15 @@
+#version: '3.8'
+services:
+  geoserver_v2:
+    image: oscarfonts/geoserver:latest  # Imagen oficial alternativa ligera
+    container_name: geoserver_v2
+    ports:
+      - "8080:8080"  # Puerto de acceso a GeoServer
+    environment:
+      - GEOSERVER_ADMIN_PASSWORD=geoserver  # Contraseña del admin
+    volumes:
+      - ./geoserver_data:/opt/geoserver/data_dir  # Persistencia de datos
+    restart: unless-stopped
+    
+#volumes:
+#  geoserver_data:
