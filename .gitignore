@@ -1,0 +1,4 @@
+# ProxyManager
+proxymanager/data/database.sqlite
+proxymanager/data/keys.json
+proxymanager/data/logs/
