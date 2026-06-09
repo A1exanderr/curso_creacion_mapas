@@ -8,3 +8,7 @@ docker network create app_network_produccion
 ```
 docker network inspect app_network_produccion
 ```
+>Para cargar todas la carpetas con los proyectos requeridos
+```
+git submodule update --init --recursive 
+```
