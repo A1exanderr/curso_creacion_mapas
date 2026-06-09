@@ -1,0 +1,6 @@
+[submodule "sistema_web"]
+	path = sistema_web
+	url = https://gitlab.com/Rodry03lec/mapas-curso-v2.git
+[submodule "posgresql_posgis"]
+	path = posgresql_posgis
+	url = https://gitlab.com/Rodry03lec/curso-mapas-v2-postgis.git
